@@ -39,7 +39,7 @@ export default function BookingForm() {
     };
 
     return (
-        <div className="w-full max-w-md mx-auto p-6 bg-gradient-to-br from-[#ED2628] to-[#F3AA45] rounded-3xl">
+        <div className="w-full max-w-md ml-auto p-5 bg-gradient-to-br from-[#ED2628] to-[#F3AA45] rounded-3xl">
             <h1 className="text-white text-2xl font-bold mb-8 text-center">
                 Book Your Ride Instantly
             </h1>
