@@ -4,6 +4,7 @@ import cors from 'cors';
 import rateLimit from 'express-rate-limit';
 import { config } from '../infrastructure/config';
 import { BookingRoute } from '../interfaces/routes/booking.route';
+import { errorHandler } from '../interfaces/middlewares/error.middleware';
 
 export class Server {
     private static instance: Server;
@@ -56,7 +57,7 @@ export class Server {
     }
 
     private configureErrorHandling() {
-        // error handling here
+        this._app.use(errorHandler)
     }
 
     public getApp(): Application {
