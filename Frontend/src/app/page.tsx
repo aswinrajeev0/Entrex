@@ -1,3 +1,4 @@
+import CertificateSection from "@/components/certificateSection";
 import CompaniesSection from "@/components/companiesSection";
 import HeroSection from "@/components/heroSection";
 import InCarProvisionsSection from "@/components/inCarProvisionsSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <InCarProvisionsSection />
       <WhyEntrexSection />
       <CompaniesSection />
+      <CertificateSection />
     </div>
   );
 }
