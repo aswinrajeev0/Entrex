@@ -8,9 +8,9 @@ interface UpdatesCardProps {
 
 const UpdatesCard: React.FC<UpdatesCardProps> = ({heading, imgSrc}) => {
     return (
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden max-w-md w-[400px] mx-auto">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden max-w-md w-[300px] mx-auto">
             {/* Image placeholder */}
-            <div className="relative h-64 w-full">
+            <div className="relative h-50 w-full">
                 <Image
                     src={imgSrc}
                     alt="Business team meeting"
@@ -20,8 +20,8 @@ const UpdatesCard: React.FC<UpdatesCardProps> = ({heading, imgSrc}) => {
             </div>
 
             {/* Content */}
-            <div className="p-6">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-tight">
+            <div className="p-2">
+                <h2 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
                     {heading}
                 </h2>
 

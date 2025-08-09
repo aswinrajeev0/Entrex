@@ -8,7 +8,7 @@ export default function NewsAndUodatesSection() {
                 News & Updates
             </h1>
 
-            <div className="my-8 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 lg:mx-20">
+            <div className="my-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-20">
                 <UpdatesCard
                     imgSrc="/employees1.jpg"
                     heading="Surviving through tough times as a first time SaaS..."
