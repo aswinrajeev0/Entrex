@@ -5,8 +5,8 @@ export default function ServicesSection() {
     return (
         <>
             <div className="w-[100vw] text-center mt-10">
-                <h1 className="text-6xl font-bold">Our Services</h1>
-                <span className="text-lg font-bold block mt-2">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold">Our Services</h1>
+                <span className="text-sm sm:text-lg font-bold block mt-2">
                     Premium travel solutions tailored for businesses and individuals across India.
                 </span>
 
